@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+</head>
+<body>
+    <h2>Iniciar sesión</h2>
+
+    <!-- 🔹 Formulario tradicional con usuario/contraseña -->
+    <form method="post" action="/login">
+        <div>
+            <label>Usuario:</label>
+            <input type="text" name="username">
+        </div>
+        <div>
+            <label>Contraseña:</label>
+            <input type="password" name="password">
+        </div>
+        <button type="submit">Ingresar</button>
+    </form>
+
+    <div>
+        <p>Usuarios de prueba:</p>
+        <p>admin / admin</p>
+        <p>user / user</p>
+    </div>
+
+    <!-- 🔹 NUEVO: Botón para login con Google -->
+    <div style="margin-top:20px;">
+        <a href="/oauth2/authorization/google">
+            <button type="button">Login con Google</button>
+        </a>
+    </div>
+</body>
+</html>

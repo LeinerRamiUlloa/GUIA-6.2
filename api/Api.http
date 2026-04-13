@@ -1,0 +1,63 @@
+### Login: obtener JWT 
+POST http://localhost:8080/auth/login 
+Content-Type: application/json 
+
+{ "username": "admin", 
+  "password": "admin" 
+} 
+
+### Obtener todos los productos (requiere JWT, reemplaza el token) 
+GET http://localhost:8080/products 
+Cookie: JSESSIONID= A5958933303CFB73625E7F27898A5831
+### Obtener todas las categorías (requiere JWT, reemplaza el token) 
+GET http://localhost:8080/categories 
+Cookie: JSESSIONID= A5958933303CFB73625E7F27898A5831
+
+
+GET http://localhost:8080/categories  
+### 
+GET http://localhost:8080/categories/1  
+### 
+POST http://localhost:8080/categories 
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTc3NTQ5NDYwMCwiZXhwIjoxNzc1NDk4MjAwfQ.JgfbSkecyaNV4X55B1FNL9TUIxqHAxx7okr-T78Z6s0 
+Content-Type: application/json 
+
+{ 
+"description": "Postres" 
+} 
+### 
+PUT http://localhost:8080/categories/4
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTc3NTQ5NDYwMCwiZXhwIjoxNzc1NDk4MjAwfQ.JgfbSkecyaNV4X55B1FNL9TUIxqHAxx7okr-T78Z6s0 
+Content-Type: application/json 
+
+{ 
+"description": "Bebidas" 
+} 
+### 
+DELETE http://localhost:8080/categories/6
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTc3NTQ5NDYwMCwiZXhwIjoxNzc1NDk4MjAwfQ.JgfbSkecyaNV4X55B1FNL9TUIxqHAxx7okr-T78Z6s0 
+
+### Productos
+
+GET http://localhost:8080/products  
+### 
+GET http://localhost:8080/products/4 
+### 
+POST http://localhost:8080/products 
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTc3NTQ5NDYwMCwiZXhwIjoxNzc1NDk4MjAwfQ.JgfbSkecyaNV4X55B1FNL9TUIxqHAxx7okr-T78Z6s0 
+Content-Type: application/json 
+
+{ 
+"description": "Postres" 
+} 
+### 
+PUT http://localhost:8080/products/4
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTc3NTQ5NDYwMCwiZXhwIjoxNzc1NDk4MjAwfQ.JgfbSkecyaNV4X55B1FNL9TUIxqHAxx7okr-T78Z6s0 
+Content-Type: application/json 
+
+{ 
+"description": "Bebidas" 
+} 
+### 
+DELETE http://localhost:8080/products/6
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTc3NTQ5NDYwMCwiZXhwIjoxNzc1NDk4MjAwfQ.JgfbSkecyaNV4X55B1FNL9TUIxqHAxx7okr-T78Z6s0 

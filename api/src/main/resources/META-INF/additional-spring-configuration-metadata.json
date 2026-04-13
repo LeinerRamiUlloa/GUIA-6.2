@@ -1,0 +1,92 @@
+{"properties": [
+  {
+    "name": "jwt.secret",
+    "type": "java.lang.String",
+    "description": "A description for 'jwt.secret'"
+  },
+  {
+    "name": "jwt.expiration",
+    "type": "java.lang.String",
+    "description": "A description for 'jwt.expiration'"
+  },
+  {
+    "name": "\nspring.datasource.usernam",
+    "type": "java.lang.String",
+    "description": "A description for '\nspring.datasource.usernam'"
+  },
+  {
+    "name": ")\nspring.jpa.hibernate.ddl-au",
+    "type": "java.lang.String",
+    "description": "A description for ')\nspring.jpa.hibernate.ddl-au'"
+  },
+  {
+    "name": "e\nspring.jpa.show-s",
+    "type": "java.lang.String",
+    "description": "A description for 'e\nspring.jpa.show-s'"
+  },
+  {
+    "name": "s)\njwt.sec",
+    "type": "java.lang.String",
+    "description": "A description for 's)\njwt.sec'"
+  },
+  {
+    "name": "ID\njwt.expirat",
+    "type": "java.lang.String",
+    "description": "A description for 'ID\njwt.expirat'"
+  },
+  {
+    "name": "===\nspring.security.oauth2.client.registration.google.clien",
+    "type": "java.lang.String",
+    "description": "A description for '===\nspring.security.oauth2.client.registration.google.clien'"
+  },
+  {
+    "name": "_ID\nspring.security.oauth2.client.registration.google.client-se",
+    "type": "java.lang.String",
+    "description": "A description for '_ID\nspring.security.oauth2.client.registration.google.client-se'"
+  },
+  {
+    "name": "RET\nspring.security.oauth2.client.registration.google.s",
+    "type": "java.lang.String",
+    "description": "A description for 'RET\nspring.security.oauth2.client.registration.google.s'"
+  },
+  {
+    "name": "te)\nspring.security.oauth2.client.provider.google.authorization",
+    "type": "java.lang.String",
+    "description": "A description for 'te)\nspring.security.oauth2.client.provider.google.authorization'"
+  },
+  {
+    "name": "uth\nspring.security.oauth2.client.provider.google.token",
+    "type": "java.lang.String",
+    "description": "A description for 'uth\nspring.security.oauth2.client.provider.google.token'"
+  },
+  {
+    "name": "ken\nspring.security.oauth2.client.provider.google.user-info",
+    "type": "java.lang.String",
+    "description": "A description for 'ken\nspring.security.oauth2.client.provider.google.user-info'"
+  },
+  {
+    "name": "\nspring.datasource.ur",
+    "type": "java.lang.String",
+    "description": "A description for '\nspring.datasource.ur'"
+  },
+  {
+    "name": "\nspring.datasource.driver-class-nam",
+    "type": "java.lang.String",
+    "description": "A description for '\nspring.datasource.driver-class-nam'"
+  },
+  {
+    "name": "\nspring.datasource.passwor",
+    "type": "java.lang.String",
+    "description": "A description for '\nspring.datasource.passwor'"
+  },
+  {
+    "name": "com\nspring.security.oauth2.client.registration.google.client-se",
+    "type": "java.lang.String",
+    "description": "A description for 'com\nspring.security.oauth2.client.registration.google.client-se'"
+  },
+  {
+    "name": "ZHG\nspring.security.oauth2.client.registration.google.s",
+    "type": "java.lang.String",
+    "description": "A description for 'ZHG\nspring.security.oauth2.client.registration.google.s'"
+  }
+]}
